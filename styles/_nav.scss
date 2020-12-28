@@ -1,0 +1,34 @@
+.header-nav{
+box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+background-color: white;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+.nav-links{
+    min-height: 10vh;
+    display: flex;
+   flex-wrap: wrap;
+   width: 70%;
+   margin: auto;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+#logo{
+    flex: 1 1 40rem;
+}
+.nav-links ul{
+    flex: 1 1 40rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nav-links a{
+    color: black;
+}
+@media screen and (min-width:320px) and (max-width:700px){
+    header.header-nav{
+        min-height: 17vh;
+    }
+}

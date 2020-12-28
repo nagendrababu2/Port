@@ -1,0 +1,74 @@
+
+.Contact{
+    min-height: 50vh;
+    position: relative;
+    // margin: 3rem 0rem;
+}
+.contact-form {
+    @include flex(center,center,column);
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%,-50%);
+    border: none;
+    border: 1rem solid black;
+    padding: 2rem 6rem;
+    width: 60%;
+    margin: auto;
+   
+}.contact-heading{
+    text-align: center;
+    padding: 2rem;
+}
+.main-contact{
+    background-color: greenyellow;
+}
+form button{
+    border: none;
+    padding: 2rem 6.5rem;
+    margin: 2rem 0rem;
+}
+.form-heading{
+    // margin-bottom: 4rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+.conatct-section{
+    min-height: 90vh;
+    background-color: greenyellow;
+    position: relative;
+}
+.conatct-heading{
+    text-align: center;
+    padding-top: 2rem;
+    text-decoration: underline;
+}
+@media screen and (min-width:320px) and (max-width:500px){
+    #logo{
+        text-align: center;
+        margin: 2rem 0rem;
+    }
+}
+@media screen and (min-width:360px) and (max-width:700px){
+    #logo{
+        text-align: center;
+        margin: 2rem 0rem;
+    }
+    .contact-form{
+        margin-top: 2rem;
+    }
+    .contactme{
+        text-align: center;
+        padding: 2rem;
+    }
+}
+@media screen and (max-width:1500px)
+{
+    .contactme{
+        text-align: center;
+        padding: 2rem;
+    }
+}
+.contactme{
+    text-align: center;
+}

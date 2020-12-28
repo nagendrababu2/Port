@@ -1,0 +1,94 @@
+.project-gallery{
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background-color: orange;
+}
+.images{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.content
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.v1{
+    flex: 1 1 40rem;
+}
+.v2{
+    flex: 1 1 40rem;
+}
+.exaplefle{
+    // background-color: palegoldenrod;
+    min-height: 100vh; 
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex; 
+}
+.card{
+    height: 20vh;
+    // background-color: palegreen;
+    // border: 1px solid yellow;
+    width: 40vh;
+    flex-direction: column;
+}
+.firstsecton{
+    display: flex;
+    justify-content: space-around;
+    margin: 10rem 0rem;
+    flex-wrap: wrap;
+}
+.secondsecton{
+    display: flex;
+    justify-content: space-around;
+    margin: 10rem 0rem;
+    flex-wrap: wrap;
+}
+.projects-heaing{
+    text-align: center;
+    margin: 2rem 0rem;
+}
+.parrallax{
+    width: 100%;
+    // height: 100vh;
+}
+
+.parrallax .content:nth-child(1){
+    background:url(../2-triangles-background.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.parrallax .content:nth-child(2){
+    background: url(../linkedin.svg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.parrallax .content:nth-child(3){
+    
+    background: url(../grey.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.clickable-link{
+    cursor: pointer;
+}
+@media screen and (min-width:360px) and (max-width:700px){
+    .cards{
+        margin: 2rem;
+    }
+ .margintop7{
+     margin-top: -7rem;
+ }   
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .aligningcenter{
+        padding: 2rem;
+    }
+}
